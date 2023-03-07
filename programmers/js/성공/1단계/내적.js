@@ -1,0 +1,19 @@
+/*
+주소
+
+문제 설명
+
+*/
+
+function solution(a, b) {
+  let answer = 0;
+  for (let i = 0; i < a.length; i++) {
+    answer += a[i] * b[i];
+  }
+  return answer;
+}
+
+let ans;
+
+ans = solution([1, 2, 3, 4], [-3, -1, 0, 2]);
+console.log("ans :", ans);
